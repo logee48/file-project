@@ -7,7 +7,7 @@ I faced some problem with it,  so why not create my own app for it
 
 
 modules required:
-tkinter: for obviously reasons
-PIL: resizing image dimension and changing file formate
-os: getting file size and other stuffs
-tkinter filedialog: for selecting file
+  >> tkinter: for obviously reasons
+  >> PIL: resizing image dimension and changing file formate
+  >> os: getting file size and other stuffs
+  >> tkinter filedialog: for selecting file

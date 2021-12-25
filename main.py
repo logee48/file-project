@@ -59,7 +59,7 @@ class app:
         self.formateconverstion.destroy()
         self.homepage()
 
-    def resizingpage(self):
+    """def resizingpage(self):
         self.mainpage.destroy()
         self.resize = Tk()
         self.resize.title("Resizing")
@@ -101,7 +101,7 @@ class app:
         aaa.resize((int(w), int(h)), Image.ANTIALIAS)
         aaa.save("imagedb/"+str(fielname)+type)
         self.label6 = Label(self.resize, text="size of image = " + str((os.stat("imagedb/"+str(fielname)+type).st_size)/1024) + " KB")
-        self.label6.place(relx=0.2, rely=0.6)
+        self.label6.place(relx=0.2, rely=0.6)"""
 
 
 
